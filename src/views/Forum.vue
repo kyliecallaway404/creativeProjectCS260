@@ -1,11 +1,11 @@
 <template>
 <div>
-<div class="title-container">
-  <div class="title">
-    <h1>Forum</h1>
-    <h2>Which game is your favorite?<h2>
-  </div>
-<div class="Reviews-Container">
+  <div class="title-container">
+    <div class="title">
+      <h1>Forum</h1>
+      <h2>Which game is your favorite?</h2>
+    </div>
+  <div class="Reviews-Container">
     <div class="forum-item">
       <h2 id="person">Moira Rose</h2>
       <p id="reviews">"This place is almost charming. Very rustic cottage... I was half expecting early Unabomber."</p>
@@ -26,7 +26,7 @@
       <h2 id="person">Stevie Bud</h2>
       <p id="reviews">"Best Wishes and Warmest Regards!"</p>
     </div>
-</div>
+  </div>
 </div>
 </template>
 
