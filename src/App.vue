@@ -5,10 +5,98 @@
       <router-link to="/Forum">Forum</router-link>
     </div>
     <router-view/>
+    <!--Footer -->
+      <div class="footer-container">
+        <div class="footer">
+          <a style="color: #EDF6F9"; href="https://github.com/RefinedSnack/cs260_Creative_Project_01.git">Github Repository - By: Kylie Callway & Walter (Wacaser) DeGering</a>
+        </div>
+      </div>
   </div>
 </template>
 
 <style>
+/*Title*/
+
+.title {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#list{
+  list-style-type: none;
+}
+
+/*Footer*/
+.footer-container {
+  background-color: #57CC99;
+  margin-top: 50px;
+}
+.footer{
+  margin-left: 100px;
+}
+
+/*Moble */
+@media only screen and (max-width: 400px) {
+
+
+  .photo-container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+}
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .photo-container-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .forum-item {
+    margin-left:100px;
+    margin-right:100px;
+  }
+
+}
+/*Desktop*/
+@media only screen and (min-width: 961px){
+
+  .photo-container-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .photo-home {
+        width: 30%;
+        display: flex ;
+        align-items: center;
+        justify-content: center !important;
+  }
+  .About-item{
+    display: flex;
+    flex-direction: row;
+  }
+  .anch-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
