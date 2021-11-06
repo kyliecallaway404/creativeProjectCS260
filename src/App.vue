@@ -11,7 +11,7 @@
     <!--Footer -->
       <div class="footer-container">
         <div class="footer">
-          <a href="https://github.com/RefinedSnack/cs260_Creative_Project_01.git">Github Repository - By: Kylie Callway & Walter (Wacaser) DeGering</a>
+          <a href="https://github.com/kyliecallaway404/creativeProjectCS260">Github Repository - By: Kylie Callway & Walter (Wacaser) DeGering</a>
         </div>
       </div>
   </div>
