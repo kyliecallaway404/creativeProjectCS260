@@ -1,4 +1,5 @@
 <template>
+<div>
 <div class="title-container">
   <div class="title">
     <h1>Forum</h1>
@@ -26,6 +27,7 @@
       <p id="reviews">"Best Wishes and Warmest Regards!"</p>
     </div>
 </div>
+</div>
 </template>
 
 <style>
@@ -48,6 +50,7 @@
 #reviews {
   font-style: italic;
   color: #22577A;
+}
 
 
   /*Title*/

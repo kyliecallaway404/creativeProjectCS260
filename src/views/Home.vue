@@ -1,16 +1,19 @@
 <template>
 <!--Intro Content-->
+<div>
 <div class="Intro-content-container">
   <div class="Intro-content">
     <h1>Battle of the Boardgames!</h1>
-    <a href="/pages/forum.html" style="color: #22577A" id="subtitle"><em>Which is your favorite?</em></a>
+
+    <a href="/Forum.vue" style="color: #22577A" id="subtitle"><em>Which is your favorite?</em></a>
   </div>
 </div>
 <!--Photo Bar-->
 <div class="photo-container-home">
-  <div class="photo-home"><a class="anch-link" accesskey=""href="https://www.amazon.com/Asmodee-SEV07-7-Wonders-Duel/dp/B014DMSTXK"><img class="photosize" src="../public/images/7Wondersduelimage.jpg" alt="Picture of 7 Wonders Duel Boardgame"></a></div>
-  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Rio-Grande-Games-Bohnanza-Duel/dp/B071RVLJNZ"><img class="photosize" src="../public/images/Bohnanzaimage.jpg" alt="Picture of Bohnanza Boardgame"></a></div>
-  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ"><img class="photosize" src="../public/images/Settlerpicture.jpg" alt="Picture of Setters of Catan Boardgame"></a></div>
+  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Asmodee-SEV07-7-Wonders-Duel/dp/B014DMSTXK"><img class="photosize" src="../../public/images/7Wondersduelimage.jpg" alt="Picture of 7 Wonders Duel Boardgame"></a></div>
+  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Rio-Grande-Games-Bohnanza-Duel/dp/B071RVLJNZ"><img class="photosize" src="../../public/images/Bohnanzaimage.jpg" alt="Picture of Bohnanza Boardgame"></a></div>
+  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ"><img class="photosize" src="../../public/images/Settlerpicture.jpg" alt="Picture of Setters of Catan Boardgame"></a></div>
+</div>
 </div>
 </template>
 

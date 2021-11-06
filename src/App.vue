@@ -8,11 +8,15 @@
     <!--Footer -->
       <div class="footer-container">
         <div class="footer">
-          <a style="color: #EDF6F9"; href="https://github.com/RefinedSnack/cs260_Creative_Project_01.git">Github Repository - By: Kylie Callway & Walter (Wacaser) DeGering</a>
+          <a href="https://github.com/RefinedSnack/cs260_Creative_Project_01.git">Github Repository - By: Kylie Callway & Walter (Wacaser) DeGering</a>
         </div>
       </div>
   </div>
 </template>
+
+<script>
+
+</script>
 
 <style>
 /*Title*/
