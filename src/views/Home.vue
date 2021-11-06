@@ -5,7 +5,7 @@
   <div class="Intro-content">
     <h1>Battle of the Boardgames!</h1>
 
-    <a href="/Forum.vue" style="color: #22577A" id="subtitle"><em>Which is your favorite?</em></a>
+    <h3><em>Which is your favorite?</em></h3>
   </div>
 </div>
 <!--Photo Bar-->
