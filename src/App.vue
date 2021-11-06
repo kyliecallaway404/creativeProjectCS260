@@ -2,7 +2,10 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/Forum">Forum</router-link>
+      <router-link to="/Forum">Forum</router-link> |
+      <router-link to="/Bohnanza">Bohnanza Duel</router-link> |
+      <router-link to="/SevenWonders">Seven Wonders Duel</router-link> |
+      <router-link to="/Catan">Catan</router-link>
     </div>
     <router-view/>
     <!--Footer -->
