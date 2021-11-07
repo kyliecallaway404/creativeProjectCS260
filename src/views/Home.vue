@@ -10,9 +10,9 @@
 </div>
 <!--Photo Bar-->
 <div class="photo-container-home">
-  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Asmodee-SEV07-7-Wonders-Duel/dp/B014DMSTXK"><img class="photosize" src="../../public/images/7Wondersduelimage.jpg" alt="Picture of 7 Wonders Duel Boardgame"></a></div>
-  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Rio-Grande-Games-Bohnanza-Duel/dp/B071RVLJNZ"><img class="photosize" src="../../public/images/Bohnanzaimage.jpg" alt="Picture of Bohnanza Boardgame"></a></div>
-  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ"><img class="photosize" src="../../public/images/Settlerpicture.jpg" alt="Picture of Setters of Catan Boardgame"></a></div>
+  <div class="photo-home"><a class="anch-link2" href="https://www.amazon.com/Asmodee-SEV07-7-Wonders-Duel/dp/B014DMSTXK"><img class="photosize" src="../../public/images/7Wondersduelimage.jpg" alt="Picture of 7 Wonders Duel Boardgame"></a></div>
+  <div class="photo-home"><a class="anch-link2" href="https://www.amazon.com/Rio-Grande-Games-Bohnanza-Duel/dp/B071RVLJNZ"><img class="photosize" src="../../public/images/Bohnanzaimage.jpg" alt="Picture of Bohnanza Boardgame"></a></div>
+  <div class="photo-home"><a class="anch-link2" href="https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ"><img class="photosize" src="../../public/images/Settlerpicture.jpg" alt="Picture of Setters of Catan Boardgame"></a></div>
 </div>
 </div>
 </template>
@@ -24,29 +24,29 @@
 <style>
 /*Home Page*/
 .Intro-content-container{
-  display:flex;
+  display: flex;
   margin: 25px 25px 25px 25px;
   justify-content: center;
 }
 
-.photo-container-home, .photo-container-portfolio, .pricing-container {
+.photo-container-home, {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .photo-home{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 1rem 1rem 1rem 1rem;
   justify-content: center;
-  margin: 50px;
 }
 
-.photo{
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
+.photosize{
+  width: 75%;
 }
 
 </style>

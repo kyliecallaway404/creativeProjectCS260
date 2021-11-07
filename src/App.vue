@@ -11,7 +11,7 @@
     <!--Footer -->
       <div class="footer-container">
         <div class="footer">
-          <a href="https://github.com/kyliecallaway404/creativeProjectCS260">Github Repository - By: Kylie Callway & Walter (Wacaser) DeGering</a>
+          <a href="https://github.com/kyliecallaway404/creativeProjectCS260.git">Github Repository - By: Kylie Callway & Walter (Wacaser) DeGering</a>
         </div>
       </div>
   </div>
@@ -50,7 +50,7 @@
   margin-left: 100px;
 }
 
-/*Moble */
+/*Mobile */
 @media only screen and (max-width: 400px) {
 
 
@@ -86,12 +86,6 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .photo-home {
-        width: 30%;
-        display: flex ;
-        align-items: center;
-        justify-content: center !important;
-  }
   .About-item{
     display: flex;
     flex-direction: row;
@@ -114,6 +108,7 @@
 
 #nav {
   padding: 30px;
+  background-color: #57CC99;
 }
 
 #nav a {
@@ -122,6 +117,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: White;
 }
 </style>
