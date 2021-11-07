@@ -5,6 +5,7 @@
       <h1>Forum</h1>
       <h2>Which game is your favorite?</h2>
     </div>
+  </div>
   <div class="Reviews-Container">
     <div class="forum-item">
       <h2 id="person">Moira Rose</h2>
